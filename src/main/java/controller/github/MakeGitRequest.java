@@ -20,9 +20,9 @@ public class MakeGitRequest implements Runnable {
     /**
      * @desc To be set to your credential login.
      */
-    private static final String token = null;
-    private static final String userLogin = null;
-    private static final String userPassword = null;
+    private static final String TOKEN = null;
+    private static final String USER_LOGIN = null;
+    private static final String USER_PASSWORD = null;
 
     private static final String REGEX_LETTERS_ONLY = "[a-zA-Z ]";
     private static final String GIT_PATH = ".git";
@@ -40,15 +40,15 @@ public class MakeGitRequest implements Runnable {
     private Boolean loginToGitHub() {
         // Login to github...
         try {
-            if (token != null) {
-                gitHub = GitHub.connectUsingOAuth(token);
-                LOGGER.info("[Attempting to connect using token]");
+            if (TOKEN != null) {
+                gitHub = GitHub.connectUsingOAuth(TOKEN);
+                LOGGER.info("[Attempting to connect using TOKEN]");
                 return true;
-            } else if (userLogin != null && userPassword != null) {
-                gitHub = GitHub.connectUsingPassword(userLogin, userPassword);
+            } else if (USER_LOGIN != null && USER_PASSWORD != null) {
+                gitHub = GitHub.connectUsingPassword(USER_LOGIN, USER_PASSWORD);
                 LOGGER.info("[Attempting to connect using username and password]");
                 return true;
-            } else if (userLogin == null && userPassword == null) {
+            } else if (USER_LOGIN == null && USER_PASSWORD == null) {
                 gitHub = GitHub.connectAnonymously();
                 LOGGER.info("[Attempting to connect anonymously]");
             }

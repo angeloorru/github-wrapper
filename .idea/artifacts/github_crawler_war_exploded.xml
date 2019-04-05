@@ -2,10 +2,10 @@
   <artifact type="exploded-war" name="github-crawler:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/github_crawler_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="github-crawler/web/Web" />
+      <element id="javaee-facet-resources" facet="github-wrapper/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="github-crawler" />
+          <element id="module-output" name="github-wrapper" />
         </element>
       </element>
     </root>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/github-crawler.iml" filepath="$PROJECT_DIR$/github-crawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/github-wrapper.iml" filepath="$PROJECT_DIR$/github-wrapper.iml" />
     </modules>
   </component>
 </project>

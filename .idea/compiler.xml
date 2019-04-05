@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="github-crawler" />
+        <module name="github-wrapper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="github-crawler" target="8" />
+      <module name="github-wrapper" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
