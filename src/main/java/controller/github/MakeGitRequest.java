@@ -24,7 +24,7 @@ public class MakeGitRequest implements Runnable {
     private static final String USER_LOGIN = null;
     private static final String USER_PASSWORD = null;
 
-    private static final String REGEX_LETTERS_ONLY = "[a-zA-Z ]";
+    private static final String REGEX_LETTERS_AND_SPACE_ONLY = "[a-zA-Z ]";
     private static final String GIT_PATH = ".git";
     private static final String ON_FORWARD_SLASH = "/";
 
@@ -101,7 +101,7 @@ public class MakeGitRequest implements Runnable {
         String releaseVersion;
 
         if (releaseBody != null) {
-            releaseVersion = releaseBody.getTagName().replaceAll(REGEX_LETTERS_ONLY, "");
+            releaseVersion = releaseBody.getTagName().replaceAll(REGEX_LETTERS_AND_SPACE_ONLY, "");
         } else {
             releaseVersion = "n/a";
         }
