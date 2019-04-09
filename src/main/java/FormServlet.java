@@ -25,11 +25,13 @@ public class FormServlet extends HttpServlet {
             response.setHeader("Test", "Success");
             response.setHeader("BMI", String.valueOf(bmi));
 
+            System.out.printf("testing server log");
+
             RequestDispatcher dispatcher
-                    = request.getRequestDispatcher("index.html");
+                    = request.getRequestDispatcher("index.jsp");
             dispatcher.forward(request, response);
         } catch (Exception e) {
-            response.sendRedirect("index.html");
+            response.sendRedirect("index.jsp");
         }
     }
 
