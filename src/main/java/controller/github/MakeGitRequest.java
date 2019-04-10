@@ -21,8 +21,8 @@ public class MakeGitRequest implements Runnable {
      * @desc To be set to your credential login.
      */
     private static final String TOKEN = null;
-    private static final String USER_LOGIN = "angeloorru";
-    private static final String USER_PASSWORD = "Albasha12@";
+    private static final String USER_LOGIN = null;
+    private static final String USER_PASSWORD = null;
 
     private static final String REGEX_LETTERS_AND_SPACE_ONLY = "[a-zA-Z ]";
     private static final String GIT_PATH = ".git";
@@ -34,7 +34,6 @@ public class MakeGitRequest implements Runnable {
 
     /**
      * @return Boolean login
-     * @throws IOException
      * @desc Performs the login to github
      */
     private Boolean loginToGitHub() {
