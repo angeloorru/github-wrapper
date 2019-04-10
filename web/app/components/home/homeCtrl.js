@@ -12,7 +12,6 @@ angular.module('myAppHomeCtrl', []).controller('homeCtrl', ['$scope', 'homeConte
         $scope.subheading = response;
     });
     */
-
     $scope.dataset = homeContent.getContent();
     $scope.header = homeContent.getHeader();
     $scope.subheading = homeContent.getSubheader();

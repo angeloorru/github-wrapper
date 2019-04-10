@@ -17,23 +17,9 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             url: '/About',
             templateUrl: 'app/components/about/about.html'
         })
-
-        // SERVICES PAGE AND MULTIPLE NAMED VIEWS =================================
-        /*  .state('Services', {
-              url: '/Services',
-              templateUrl: 'app/components/services/services.html'
-          })*/
-
         // CONTACT PAGE AND MULTIPLE NAMED VIEWS =================================
         .state('Contact', {
             url: '/Contact',
             templateUrl: 'app/components/contact/contact.html'
         })
-
-    // LOGIN PAGE ======================================================
-    /* .state('Login', {
-         url: '/Login',
-         templateUrl: 'app/components/login/login.html'
-     });*/
-
 });
