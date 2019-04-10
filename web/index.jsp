@@ -5,7 +5,6 @@
     <title>TestWebServlet</title>
 </head>
 <body>
-<h2>Hello from index...</h2>
 
 <form name="bmiForm" action="calculateServlet" method="POST">
     <table>
