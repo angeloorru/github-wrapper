@@ -19,10 +19,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
         })
 
         // SERVICES PAGE AND MULTIPLE NAMED VIEWS =================================
-        .state('Services', {
+      /*  .state('Services', {
             url: '/Services',
             templateUrl: 'app/components/services/services.html'
-        })
+        })*/
 
         // CONTACT PAGE AND MULTIPLE NAMED VIEWS =================================
         .state('Contact', {
@@ -31,9 +31,9 @@ app.config(function($stateProvider, $urlRouterProvider) {
         })
 
         // LOGIN PAGE ======================================================
-        .state('Login', {
+       /* .state('Login', {
             url: '/Login',
             templateUrl: 'app/components/login/login.html'
-        });
+        });*/
 
 });
