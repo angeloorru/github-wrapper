@@ -20,7 +20,7 @@ public class CSVReader {
     private static final String COMMA_DELIMITER = ",";
     private static final String GIT = ".git";
     //Add file path
-    private static final String FILE_PATH = null;
+    private static final String FILE_PATH = "/home/ao/IdeaProjects/GitHubCrawler/src/main/resources/PluginIndex.csv";
 
     /**
      * @return List<String> data
