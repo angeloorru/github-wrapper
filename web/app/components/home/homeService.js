@@ -4,7 +4,7 @@ angular.module('myAppHomeService', []).factory('homeContent', function () {
             return "Welcome";
         },
         getSubheader: function () {
-            return "To Angelo's Awesome GitHub Crawler";
+            return "To Angelo's Awesome GitHub Crawler. Things are slowly coming up...";
         },
         getContent: function () {
             var content = [
