@@ -7,9 +7,9 @@ angular.module('myAppNavbarService', [])
                     {
                         title: 'About'
                     },
-                   /* {
-                        title: 'Services'
-                    },*/
+                    /* {
+                         title: 'Services'
+                     },*/
                     {
                         title: 'Contact'
                     }
