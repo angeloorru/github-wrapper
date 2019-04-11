@@ -1,3 +1,3 @@
-angular.module('myIndexController', []).controller('indexController', ['$scope', function ($scope) {
+angular.module('indexModule', []).controller('indexController', ['$scope', function ($scope) {
     $scope.date = new Date();
 }]);

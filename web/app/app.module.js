@@ -1,11 +1,11 @@
-angular.module("myApp", [
+angular.module("GitHubApp", [
     'ui.bootstrap',
     'ngAnimate',
-    'myIndexController',
-    'myAppRouter',
-    'myAppHomeCtrl',
-    'myAppHomeService',
-    'myAppNavbarDirective',
-    'myAppNavbarService'
+    'indexModule',
+    'appRouterModule',
+    'appHomeModule',
+    'appHomeService',
+    'appNavbarDirective',
+    'appNavbarService'
 ]);
 

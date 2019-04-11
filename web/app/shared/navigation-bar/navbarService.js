@@ -1,4 +1,4 @@
-angular.module('myAppNavbarService', []).factory('navbarFactory', [function () {
+angular.module('appNavbarService', []).factory('navbarFactory', [function () {
     return {
         getNavbarHeadings: function () {
             var headings = [

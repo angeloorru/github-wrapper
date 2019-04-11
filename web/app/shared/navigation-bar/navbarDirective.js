@@ -1,4 +1,4 @@
-angular.module('myAppNavbarDirective', []).directive('navDir', [function () {
+angular.module('appNavbarDirective', []).directive('navDir', [function () {
     // Runs during compile
     return {
         restrict: 'E',

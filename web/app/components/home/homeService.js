@@ -1,4 +1,4 @@
-angular.module('myAppHomeService', []).factory('homeContent', function () {
+angular.module('appHomeService', []).factory('homeContent', function () {
     return {
         getContent: function () {
             var content = [
