@@ -10,11 +10,11 @@
 
 
     <servlet>
-        <servlet-name>FormServlet</servlet-name>
-        <servlet-class>FormServlet</servlet-class>
+        <servlet-name>SearchGitFormServlet</servlet-name>
+        <servlet-class>SearchGitFormServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>FormServlet</servlet-name>
-        <url-pattern>/calculateServlet</url-pattern>
+        <servlet-name>SearchGitFormServlet</servlet-name>
+        <url-pattern>/search-git</url-pattern>
     </servlet-mapping>
 </web-app>

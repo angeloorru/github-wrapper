@@ -13,7 +13,7 @@ angular.module('myAppHomeCtrl', []).controller('homeCtrl', ['$scope', 'homeConte
     });
     */
     $scope.dataset = homeContent.getContent();
-    $scope.header = homeContent.getHeader();
-    $scope.subheading = homeContent.getSubheader();
+   /* $scope.header = homeContent.getHeader();
+    $scope.subheading = homeContent.getSubheader();*/
 
 }]);

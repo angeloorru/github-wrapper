@@ -7,13 +7,13 @@ import javax.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "FormServlet", urlPatterns = "/calculateServlet")
-public class FormServlet extends HttpServlet {
+@WebServlet(name = "SearchGitFormServlet", urlPatterns = "/search-git")
+public class SearchGitFormServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String height = request.getParameter("height");
+       /* String height = request.getParameter("height");
         String weight = request.getParameter("weight");
 
         try {
@@ -32,7 +32,7 @@ public class FormServlet extends HttpServlet {
             dispatcher.forward(request, response);
         } catch (Exception e) {
             response.sendRedirect("index.jsp");
-        }
+        }*/
     }
 
     private Double calculateBMI(Double weight, Double height) {
