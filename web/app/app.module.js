@@ -6,8 +6,6 @@ angular.module("myApp", [
     'myAppHomeCtrl',
     'myAppHomeService',
     'myAppNavbarDirective',
-    'myAppNavbarService',
-    'myAppLoginCtrl',
-    'myAppLoginService'
+    'myAppNavbarService'
 ]);
 
