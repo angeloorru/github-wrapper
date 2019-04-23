@@ -5,8 +5,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/home');
 
     $stateProvider
-
-    // HOME STATES AND NESTED VIEWS ========================================
+        // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/home',
             templateUrl: 'app/components/home/partial-home.html'
